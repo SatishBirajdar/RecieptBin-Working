@@ -8,7 +8,11 @@
 
 import Foundation
 
-class CategoryService{
+protocol CategoryService{
+    func getCategories() -> Array <Category>
+}
+
+class CategoryServiceImpl: CategoryService {
     
     func getCategories() -> Array <Category>{
         let categories = [Category(firstName:"Satish", lastName:"Birajdar"),
