@@ -6,6 +6,8 @@
 //  Copyright © 2017 SBSoftwares. All rights reserved.
 //
 
+import PromiseKit
+
 class CategoryPresenterImpl: CategoryPresentor {
     private let categoryService:CategoryService
     weak private var categoryView : CategoryPresenterView?
@@ -17,8 +19,14 @@ class CategoryPresenterImpl: CategoryPresentor {
     func attachView(view:CategoryPresenterView){
         categoryView = view
         
-        let categories: Array<Category> = categoryService.getCategories()
-        categoryView?.displayCategories(categories: (categories as? [CategoryViewDataModel])!)
+//        firstly{
+            categoryService.getCategories()
+//        }
+//        .then{_ in 
+        
+            let categories = self.categoryService.getCategories()
+            self.categoryView?.displayCategories(categories: (categories as? [CategoryViewDataModel])!)
+//        }
     }
 
     func detachView() {

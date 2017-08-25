@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import PromiseKit
 
 protocol CategoryService{
     func getCategories() -> Array <Category>
@@ -15,9 +16,11 @@ protocol CategoryService{
 class CategoryServiceImpl: CategoryService {
     
     func getCategories() -> Array <Category>{
+        
+        
         let categories = [Category(firstName:"Satish", lastName:"Birajdar"),
                           Category(firstName:"Nikhil", lastName:"Dekosta")]
        
-        return categories
+        return  categories
     }    
 }
