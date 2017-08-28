@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E32697F21F40C94500061ACD /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F11F40C94500061ACD /* CategoryViewController.swift */; };
-		E32697F41F40C95300061ACD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F31F40C95300061ACD /* Category.swift */; };
-		E32697F91F40CEF500061ACD /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F81F40CEF500061ACD /* CategoryService.swift */; };
-		E3BF00801F4E8694002325E0 /* CategoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF007E1F4E8694002325E0 /* CategoryListCell.swift */; };
-		E3BF00811F4E8694002325E0 /* CategoryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BF007F1F4E8694002325E0 /* CategoryListCell.xib */; };
-		E3EA7CEE1F4E6FED00C9DE05 /* CategoryListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EA7CED1F4E6FED00C9DE05 /* CategoryListView.xib */; };
+		E32697F21F40C94500061ACD /* RecieptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F11F40C94500061ACD /* RecieptViewController.swift */; };
+		E32697F41F40C95300061ACD /* Reciept.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F31F40C95300061ACD /* Reciept.swift */; };
+		E32697F91F40CEF500061ACD /* RecieptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32697F81F40CEF500061ACD /* RecieptService.swift */; };
+		E3BF00801F4E8694002325E0 /* RecieptListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF007E1F4E8694002325E0 /* RecieptListCell.swift */; };
+		E3BF00811F4E8694002325E0 /* RecieptListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BF007F1F4E8694002325E0 /* RecieptListCell.xib */; };
+		E3EA7CEE1F4E6FED00C9DE05 /* RecieptListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EA7CED1F4E6FED00C9DE05 /* RecieptListView.xib */; };
 		E3EA9F5E1F4FA60400F647FB /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA9F5D1F4FA60400F647FB /* PromiseKit.framework */; };
-		E3EFF0A91F411966001CCD54 /* CategoryListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0A81F411966001CCD54 /* CategoryListContract.swift */; };
-		E3EFF0AB1F4124AD001CCD54 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0AA1F4124AD001CCD54 /* CategoryPresenter.swift */; };
+		E3EDFFBA1F5234E70094A04A /* CategoryPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */; };
+		E3EFF0A91F411966001CCD54 /* RecieptListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0A81F411966001CCD54 /* RecieptListContract.swift */; };
+		E3EFF0AB1F4124AD001CCD54 /* RecieptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0AA1F4124AD001CCD54 /* RecieptPresenter.swift */; };
 		E3F71AA71F3D305700BCC10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F71AA61F3D305700BCC10C /* AppDelegate.swift */; };
 		E3F71AAF1F3D305700BCC10C /* RecieptBin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3F71AAD1F3D305700BCC10C /* RecieptBin.xcdatamodeld */; };
 		E3F71AB11F3D305700BCC10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F71AB01F3D305700BCC10C /* Assets.xcassets */; };
 		E3F71AB41F3D305700BCC10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F71AB21F3D305700BCC10C /* LaunchScreen.storyboard */; };
-		E3F71ABF1F3D305700BCC10C /* RecieptBinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F71ABE1F3D305700BCC10C /* RecieptBinTests.swift */; };
 		E3F71ACA1F3D305700BCC10C /* RecieptBinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F71AC91F3D305700BCC10C /* RecieptBinUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,15 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E32697F11F40C94500061ACD /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		E32697F31F40C95300061ACD /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		E32697F81F40CEF500061ACD /* CategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
-		E3BF007E1F4E8694002325E0 /* CategoryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListCell.swift; sourceTree = "<group>"; };
-		E3BF007F1F4E8694002325E0 /* CategoryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListCell.xib; sourceTree = "<group>"; };
-		E3EA7CED1F4E6FED00C9DE05 /* CategoryListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListView.xib; sourceTree = "<group>"; };
+		E32697F11F40C94500061ACD /* RecieptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptViewController.swift; sourceTree = "<group>"; };
+		E32697F31F40C95300061ACD /* Reciept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reciept.swift; sourceTree = "<group>"; };
+		E32697F81F40CEF500061ACD /* RecieptService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptService.swift; sourceTree = "<group>"; };
+		E3BF007E1F4E8694002325E0 /* RecieptListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptListCell.swift; sourceTree = "<group>"; };
+		E3BF007F1F4E8694002325E0 /* RecieptListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecieptListCell.xib; sourceTree = "<group>"; };
+		E3EA7CED1F4E6FED00C9DE05 /* RecieptListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecieptListView.xib; sourceTree = "<group>"; };
 		E3EA9F5D1F4FA60400F647FB /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
-		E3EFF0A81F411966001CCD54 /* CategoryListContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListContract.swift; sourceTree = "<group>"; };
-		E3EFF0AA1F4124AD001CCD54 /* CategoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPresenterTest.swift; sourceTree = "<group>"; };
+		E3EFF0A81F411966001CCD54 /* RecieptListContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptListContract.swift; sourceTree = "<group>"; };
+		E3EFF0AA1F4124AD001CCD54 /* RecieptPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptPresenter.swift; sourceTree = "<group>"; };
 		E3F71AA31F3D305700BCC10C /* RecieptBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecieptBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F71AA61F3D305700BCC10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F71AAE1F3D305700BCC10C /* RecieptBin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecieptBin.xcdatamodel; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		E3F71AB31F3D305700BCC10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3F71AB51F3D305700BCC10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F71ABA1F3D305700BCC10C /* RecieptBinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecieptBinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F71ABE1F3D305700BCC10C /* RecieptBinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieptBinTests.swift; sourceTree = "<group>"; };
 		E3F71AC01F3D305700BCC10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F71AC51F3D305700BCC10C /* RecieptBinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecieptBinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F71AC91F3D305700BCC10C /* RecieptBinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieptBinUITests.swift; sourceTree = "<group>"; };
@@ -91,21 +91,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E32697F01F40C91600061ACD /* Category List */ = {
+		E32697F01F40C91600061ACD /* Reciept List */ = {
 			isa = PBXGroup;
 			children = (
 				E32697F61F40C96D00061ACD /* View */,
 				E32697F71F40C98000061ACD /* Presenter */,
 				E32697F51F40C95900061ACD /* Model */,
 			);
-			name = "Category List";
+			name = "Reciept List";
 			sourceTree = "<group>";
 		};
 		E32697F51F40C95900061ACD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E32697F31F40C95300061ACD /* Category.swift */,
-				E32697F81F40CEF500061ACD /* CategoryService.swift */,
+				E32697F31F40C95300061ACD /* Reciept.swift */,
+				E32697F81F40CEF500061ACD /* RecieptService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -113,10 +113,10 @@
 		E32697F61F40C96D00061ACD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E32697F11F40C94500061ACD /* CategoryViewController.swift */,
-				E3EA7CED1F4E6FED00C9DE05 /* CategoryListView.xib */,
-				E3BF007E1F4E8694002325E0 /* CategoryListCell.swift */,
-				E3BF007F1F4E8694002325E0 /* CategoryListCell.xib */,
+				E32697F11F40C94500061ACD /* RecieptViewController.swift */,
+				E3EA7CED1F4E6FED00C9DE05 /* RecieptListView.xib */,
+				E3BF007E1F4E8694002325E0 /* RecieptListCell.swift */,
+				E3BF007F1F4E8694002325E0 /* RecieptListCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 		E32697F71F40C98000061ACD /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				E3EFF0AA1F4124AD001CCD54 /* CategoryPresenter.swift */,
+				E3EFF0AA1F4124AD001CCD54 /* RecieptPresenter.swift */,
 			);
 			name = Presenter;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				E3F71AA61F3D305700BCC10C /* AppDelegate.swift */,
-				E32697F01F40C91600061ACD /* Category List */,
-				E3EFF0A81F411966001CCD54 /* CategoryListContract.swift */,
+				E32697F01F40C91600061ACD /* Reciept List */,
+				E3EFF0A81F411966001CCD54 /* RecieptListContract.swift */,
 				E3F71AB01F3D305700BCC10C /* Assets.xcassets */,
 				E3F71AB21F3D305700BCC10C /* LaunchScreen.storyboard */,
 				E3F71AB51F3D305700BCC10C /* Info.plist */,
@@ -175,7 +175,7 @@
 		E3F71ABD1F3D305700BCC10C /* RecieptBinTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3F71ABE1F3D305700BCC10C /* RecieptBinTests.swift */,
+				E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */,
 				E3F71AC01F3D305700BCC10C /* Info.plist */,
 			);
 			path = RecieptBinTests;
@@ -265,6 +265,7 @@
 					E3F71AB91F3D305700BCC10C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = U45NT6P2KF;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E3F71AA21F3D305700BCC10C;
 					};
@@ -301,10 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EA7CEE1F4E6FED00C9DE05 /* CategoryListView.xib in Resources */,
+				E3EA7CEE1F4E6FED00C9DE05 /* RecieptListView.xib in Resources */,
 				E3F71AB41F3D305700BCC10C /* LaunchScreen.storyboard in Resources */,
 				E3F71AB11F3D305700BCC10C /* Assets.xcassets in Resources */,
-				E3BF00811F4E8694002325E0 /* CategoryListCell.xib in Resources */,
+				E3BF00811F4E8694002325E0 /* RecieptListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,14 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EFF0AB1F4124AD001CCD54 /* CategoryPresenter.swift in Sources */,
+				E3EFF0AB1F4124AD001CCD54 /* RecieptPresenter.swift in Sources */,
 				E3F71AAF1F3D305700BCC10C /* RecieptBin.xcdatamodeld in Sources */,
-				E32697F21F40C94500061ACD /* CategoryViewController.swift in Sources */,
-				E3BF00801F4E8694002325E0 /* CategoryListCell.swift in Sources */,
+				E32697F21F40C94500061ACD /* RecieptViewController.swift in Sources */,
+				E3BF00801F4E8694002325E0 /* RecieptListCell.swift in Sources */,
 				E3F71AA71F3D305700BCC10C /* AppDelegate.swift in Sources */,
-				E3EFF0A91F411966001CCD54 /* CategoryListContract.swift in Sources */,
-				E32697F41F40C95300061ACD /* Category.swift in Sources */,
-				E32697F91F40CEF500061ACD /* CategoryService.swift in Sources */,
+				E3EFF0A91F411966001CCD54 /* RecieptListContract.swift in Sources */,
+				E32697F41F40C95300061ACD /* Reciept.swift in Sources */,
+				E32697F91F40CEF500061ACD /* RecieptService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F71ABF1F3D305700BCC10C /* RecieptBinTests.swift in Sources */,
+				E3EDFFBA1F5234E70094A04A /* CategoryPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,11 +539,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = U45NT6P2KF;
 				INFOPLIST_FILE = RecieptBinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.SBSoftwares.RecieptBinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecieptBin.app/RecieptBin";
 			};
@@ -553,6 +556,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = U45NT6P2KF;
 				INFOPLIST_FILE = RecieptBinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
