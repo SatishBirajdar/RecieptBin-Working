@@ -14,7 +14,7 @@
 		E3BF00811F4E8694002325E0 /* RecieptListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BF007F1F4E8694002325E0 /* RecieptListCell.xib */; };
 		E3EA7CEE1F4E6FED00C9DE05 /* RecieptListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EA7CED1F4E6FED00C9DE05 /* RecieptListView.xib */; };
 		E3EA9F5E1F4FA60400F647FB /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA9F5D1F4FA60400F647FB /* PromiseKit.framework */; };
-		E3EDFFBA1F5234E70094A04A /* CategoryPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */; };
+		E3EDFFBA1F5234E70094A04A /* RecieptPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EDFFB91F5234E70094A04A /* RecieptPresenterTest.swift */; };
 		E3EFF0A91F411966001CCD54 /* RecieptListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0A81F411966001CCD54 /* RecieptListContract.swift */; };
 		E3EFF0AB1F4124AD001CCD54 /* RecieptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFF0AA1F4124AD001CCD54 /* RecieptPresenter.swift */; };
 		E3F71AA71F3D305700BCC10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F71AA61F3D305700BCC10C /* AppDelegate.swift */; };
@@ -49,7 +49,7 @@
 		E3BF007F1F4E8694002325E0 /* RecieptListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecieptListCell.xib; sourceTree = "<group>"; };
 		E3EA7CED1F4E6FED00C9DE05 /* RecieptListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecieptListView.xib; sourceTree = "<group>"; };
 		E3EA9F5D1F4FA60400F647FB /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
-		E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPresenterTest.swift; sourceTree = "<group>"; };
+		E3EDFFB91F5234E70094A04A /* RecieptPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptPresenterTest.swift; sourceTree = "<group>"; };
 		E3EFF0A81F411966001CCD54 /* RecieptListContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptListContract.swift; sourceTree = "<group>"; };
 		E3EFF0AA1F4124AD001CCD54 /* RecieptPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieptPresenter.swift; sourceTree = "<group>"; };
 		E3F71AA31F3D305700BCC10C /* RecieptBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecieptBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,7 +175,7 @@
 		E3F71ABD1F3D305700BCC10C /* RecieptBinTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3EDFFB91F5234E70094A04A /* CategoryPresenterTest.swift */,
+				E3EDFFB91F5234E70094A04A /* RecieptPresenterTest.swift */,
 				E3F71AC01F3D305700BCC10C /* Info.plist */,
 			);
 			path = RecieptBinTests;
@@ -364,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EDFFBA1F5234E70094A04A /* CategoryPresenterTest.swift in Sources */,
+				E3EDFFBA1F5234E70094A04A /* RecieptPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
